@@ -1,5 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: SushiUI Extended Bug Report
-    url: https://github.com/SushiUI-Ext/issues/issues/new?template=bug_report.yml
-    about: Open the SushiUI Extended bug report form.
