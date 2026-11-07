@@ -1,0 +1,130 @@
+
+name: Bug report
+description: Create a report to help us improve
+title: ""
+labels:
+  - bug
+assignees:
+  - rebangkkuser
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve SushiUI Extended!
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: Describe the bug...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behavior.
+      value: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain the problem.
+    validations:
+      required: false
+
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      placeholder: Moto G84
+    validations:
+      required: true
+
+  - type: input
+    id: codename
+    attributes:
+      label: Device codename
+      placeholder: bangkk
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: LineageOS 24.0
+    validations:
+      required: true
+
+  - type: input
+    id: sushi-version
+    attributes:
+      label: SushiUI version
+      placeholder: 1.1.2
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Your desktop that you used to build (Optional)
+
+        All fields in this section are optional.
+
+  - type: input
+    id: desktop-model
+    attributes:
+      label: Desktop model (Optional)
+      placeholder: Lenovo ThinkPad T480
+    validations:
+      required: false
+
+  - type: input
+    id: desktop-os
+    attributes:
+      label: Desktop OS (Optional)
+      placeholder: Debian GNU/Linux 13
+    validations:
+      required: false
+
+  - type: input
+    id: source-repository
+    attributes:
+      label: Source repository (Optional)
+      description: Cannot be a fork.
+      placeholder: SushiUI-Ext/sushi_device_motorola_bangkk
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        @bangkkuser will analyze your bug and see a fast fix.
+        
